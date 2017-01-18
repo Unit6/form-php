@@ -1,0 +1,32 @@
+{
+    "name": "unit6/form",
+    "type": "library",
+    "description": "Simple form utilities.",
+    "keywords": ["form"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unit6",
+            "email": "team@unit6websites.com",
+            "homepage": "http://www.unit6websites.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://unit6.github.io/satis"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "unit6/session": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unit6\\Form\\": "src/"
+        }
+    }
+}
